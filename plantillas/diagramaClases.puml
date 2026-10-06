@@ -1,0 +1,16 @@
+@startuml
+
+class UnaClase {
+    - unAtributo : int
+    - otroAtributo : String
+    + unMetodo() : void
+    + otroMetodo(parametro : int) : boolean
+}
+
+class OtraClase
+class TerceraClase
+
+UnaClase -d-> OtraClase
+UnaClase -d-> TerceraClase
+
+@enduml

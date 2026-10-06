@@ -1,0 +1,14 @@
+@startuml
+
+object unObjeto {
+    unAtributo = 7
+    otroAtributo = "texto"
+}
+
+object otroObjeto {
+    unAtributo = 3
+}
+
+unObjeto -r-> otroObjeto
+
+@enduml
